@@ -36,12 +36,12 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <div className={styles.paddingX}>
+    <div className={`${styles.paddingX} md:mt-0 lg:mt-0 `}>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
-      <div className=" flex md:flex-row flex-wrap justify-center gap-9 md:gap-0  md:justify-center md:items-center lg:justify-between">
+      <div className=" flex md:flex-row flex-wrap justify-center gap-9 md:gap-0 lg:gap-0  md:justify-center md:items-center lg:justify-between">
         <div>
           <motion.p
             variants={fadeIn('', '', 0.1, 1)}
