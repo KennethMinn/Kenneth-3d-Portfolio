@@ -30,6 +30,7 @@ import {
   mapty,
   cart,
   crownClothing,
+  dashboard,
   st,
   yma,
   nyi,
@@ -235,7 +236,7 @@ const projects = [
     project_link: 'https://crown-clothing-project.netlify.app/',
   },
   {
-    name: 'Cart-management',
+    name: 'Dashboard',
     description:
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
@@ -244,7 +245,7 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'redux',
+        name: 'syncfusion',
         color: 'green-text-gradient',
       },
       {
@@ -252,10 +253,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: cart,
-    source_code_link: 'https://github.com/KennethMinn/cart-management-react',
-    project_link:
-      'https://64533df04fa0fa470b745f25--dynamic-phoenix-40d970.netlify.app/',
+    image: dashboard,
+    source_code_link: 'https://github.com/KennethMinn/dashboard',
+    project_link: 'https://kenneth-dashboard.netlify.app',
   },
   {
     name: 'Mapty',

@@ -37,6 +37,7 @@ import tripguide from './tripguide.png';
 import mapty from './mapty.png';
 import cart from './cart-management-project.png';
 import crownClothing from './crown-clothing.png';
+import dashboard from './dashboard.png';
 
 import nyi from './nyi.jpg';
 import yma from './yma.jpg';
@@ -53,6 +54,7 @@ export {
   mapty,
   cart,
   crownClothing,
+  dashboard,
   logo,
   backend,
   creator,
