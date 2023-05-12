@@ -46,8 +46,10 @@ import com from './images (1).png';
 import pc from './pc.jpg';
 import pcHolder from './code-holder.jpg';
 import ken from './K.png';
+import gym from './gym.png';
 
 export {
+  gym,
   pc,
   ken,
   pcHolder,

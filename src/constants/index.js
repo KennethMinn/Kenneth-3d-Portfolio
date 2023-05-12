@@ -1,4 +1,5 @@
 import {
+  gym,
   mobile,
   backend,
   creator,
@@ -278,6 +279,28 @@ const projects = [
     image: mapty,
     source_code_link: 'https://github.com/KennethMinn/Mapty-App',
     project_link: 'https://leafy-moxie-ba2bf4.netlify.app',
+  },
+  {
+    name: 'fitness-app',
+    description:
+      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      // {
+      //   name: 'geolocation',
+      //   color: 'green-text-gradient',
+      // },
+      {
+        name: 'mui',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: gym,
+    source_code_link: 'https://github.com/KennethMinn/fitness-app',
+    project_link: 'https://kenneth-fitness-app.netlify.app/',
   },
 ];
 
