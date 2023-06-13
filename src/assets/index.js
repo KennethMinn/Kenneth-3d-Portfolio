@@ -38,6 +38,7 @@ import mapty from './mapty.png';
 import cart from './cart-management-project.png';
 import crownClothing from './crown-clothing.png';
 import dashboard from './dashboard.png';
+import ecommerce from './ecommerce-ts-react.png';
 
 import nyi from './nyi.jpg';
 import yma from './yma.jpg';
@@ -49,6 +50,7 @@ import ken from './K.png';
 import gym from './gym.png';
 
 export {
+  ecommerce,
   gym,
   pc,
   ken,

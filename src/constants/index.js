@@ -1,4 +1,5 @@
 import {
+  ecommerce,
   gym,
   mobile,
   backend,
@@ -217,7 +218,7 @@ const projects = [
   {
     name: 'Crown-clothing',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'The online marketplace where consumers and businesses interact, offering a wide range of products and services, enabling convenient shopping and global accessibility.',
     tags: [
       {
         name: 'react',
@@ -239,7 +240,7 @@ const projects = [
   {
     name: 'Dashboard',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A visual interface presenting key information, data, and analytics in a concise and organized manner, providing users with real-time insights to make informed decisions and monitor performance effectively.',
     tags: [
       {
         name: 'react',
@@ -259,31 +260,32 @@ const projects = [
     project_link: 'https://kenneth-dashboard.netlify.app',
   },
   {
-    name: 'Mapty',
+    name: 'Ecommerce',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'The online marketplace where consumers and businesses interact, offering a wide range of products and services, enabling convenient shopping and global accessibility.',
     tags: [
       {
-        name: 'javascript',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'geolocation',
+        name: 'typescript',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'tailwind Css',
         color: 'pink-text-gradient',
       },
     ],
-    image: mapty,
-    source_code_link: 'https://github.com/KennethMinn/Mapty-App',
-    project_link: 'https://leafy-moxie-ba2bf4.netlify.app',
+    image: ecommerce,
+    source_code_link:
+      'https://github.com/KennethMinn/typescript-cart-management',
+    project_link: 'https://ecommerce-cart-management.netlify.app/',
   },
   {
     name: 'fitness-app',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A holistic approach to physical well-being encompassing exercise, nutrition, and lifestyle choices, aimed at improving strength, endurance, flexibility, and overall health through various activities and programs.',
     tags: [
       {
         name: 'react',
@@ -301,6 +303,28 @@ const projects = [
     image: gym,
     source_code_link: 'https://github.com/KennethMinn/fitness-app',
     project_link: 'https://kenneth-fitness-app.netlify.app/',
+  },
+  {
+    name: 'Mapty',
+    description:
+      ' A user-friendly fitness app utilizing GPS to track outdoor activities, enabling users to log workouts, set goals, and visualize progress on interactive maps for a rewarding and immersive fitness experience.',
+    tags: [
+      {
+        name: 'javascript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'geolocation',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: mapty,
+    source_code_link: 'https://github.com/KennethMinn/Mapty-App',
+    project_link: 'https://leafy-moxie-ba2bf4.netlify.app',
   },
 ];
 
