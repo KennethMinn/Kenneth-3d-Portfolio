@@ -192,24 +192,24 @@ const testimonials = [
     testimonial:
       'I thought it was impossible to make a website as beautiful as our product, but Kenneth proved me wrong.',
     name: 'Shinn Thant',
-    designation: 'CFO',
-    company: 'Acme Co',
+    designation: 'junior developer',
+    company: 'Xsphere',
     image: st,
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Kenneth does.",
     name: 'Ye Man Aung',
-    designation: 'COO',
-    company: 'DEF Corp',
+    designation: 'Software developer',
+    company: 'CodeLab',
     image: yma,
   },
   {
     testimonial:
-      "After Kenneth optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      'Kenneth is a highly motivated frontend developer with a passion for creating visually appealing and user-friendly web applications',
     name: 'Nyi Nyi',
-    designation: 'CTO',
-    company: '456 Enterprises',
+    designation: 'A friend',
+    company: 'Kenneth',
     image: nyi,
   },
 ];
