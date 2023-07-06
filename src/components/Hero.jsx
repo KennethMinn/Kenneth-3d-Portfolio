@@ -1,7 +1,8 @@
 // import { motion } from 'framer-motion';
 import { styles } from '../styles';
 // import { ComputersCanvas } from './canvas';
-import { pc, pcHolder } from '../assets';
+import Lottie from 'lottie-react';
+import { computer } from '../assets';
 
 const Hero = () => {
   return (
@@ -24,12 +25,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className=" flex justify-center">
-        <img
-          src={pcHolder}
-          className=" w-[500px] md:w-[800px] md:h-[400px] md:mt-[-75px] mix-blend-screen "
-          alt=""
-        />
+      <div className=" flex justify-center mt-[-90px]">
+        <Lottie animationData={computer} className=" h-[500px] md:h-[600px]" />
       </div>
 
       {/* <ComputersCanvas /> */}

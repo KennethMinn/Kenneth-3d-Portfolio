@@ -48,8 +48,10 @@ import pc from './pc.jpg';
 import pcHolder from './code-holder.jpg';
 import ken from './K.png';
 import gym from './gym.png';
+import computer from './97639-coding.json';
 
 export {
+  computer,
   ecommerce,
   gym,
   pc,
