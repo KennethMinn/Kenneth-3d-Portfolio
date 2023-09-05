@@ -49,8 +49,10 @@ import pcHolder from './code-holder.jpg';
 import ken from './K.png';
 import gym from './gym.png';
 import computer from './97639-coding.json';
+import car_showcase from './car_showcase.png';
 
 export {
+  car_showcase,
   computer,
   ecommerce,
   gym,

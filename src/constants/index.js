@@ -13,29 +13,30 @@ import {
   redux,
   tailwind,
   sass,
-  nodejs,
+  // nodejs,
   bootstrap,
   java,
   python,
-  mongodb,
+  // mongodb,
   git,
   figma,
-  docker,
-  meta,
+  // docker,
+  // meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  // carrent,
+  // jobit,
+  // tripguide,
   threejs,
   mapty,
-  cart,
+  // cart,
   crownClothing,
   dashboard,
   st,
   yma,
   nyi,
+  car_showcase,
 } from '../assets';
 
 export const navLinks = [
@@ -325,6 +326,32 @@ const projects = [
     image: mapty,
     source_code_link: 'https://github.com/KennethMinn/Mapty-App',
     project_link: 'https://leafy-moxie-ba2bf4.netlify.app',
+  },
+  {
+    name: 'car_showcase',
+    description:
+      'Experience luxury and performance with our sleek, high-tech sports car. Precision engineering, cutting-edge technology, and stunning design await you.',
+    tags: [
+      {
+        name: 'nextJs',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'headlessUi',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: car_showcase,
+    source_code_link: 'https://github.com/KennethMinn/car_showcase_NextJs',
+    project_link: 'https://cars-showcase.netlify.app/',
   },
 ];
 
