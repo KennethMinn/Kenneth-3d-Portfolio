@@ -35,6 +35,23 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const skills = [
+    ' HTML',
+    'CSS',
+    'SASS',
+    'BOOTSTRAP',
+    'TAILWIND',
+    'JAVASCRIPT',
+    'TYPESCRIPT',
+    'REACT',
+    'REDUX',
+    'RTK TOOLKIT',
+    'PHP',
+    'MYSQL',
+    'NEXTJS',
+    'LARAVEL',
+  ];
+
   return (
     <div className={`${styles.paddingX} md:mt-0 lg:mt-0 `}>
       <motion.div variants={textVariant()}>
@@ -47,22 +64,20 @@ const About = () => {
             variants={fadeIn('', '', 0.1, 1)}
             className=" mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify md:text-start"
           >
-            As a frontend developer, I am proficient in{' '}
-            <span className=" font-bold">HTML</span>,{' '}
-            <span className=" font-bold"> CSS</span>,
-            <span className=" font-bold"> SASS</span>,
-            <span className=" font-bold"> BOOTSTRAP</span>,
-            <span className=" font-bold"> TAILWIND</span>,
-            <span className=" font-bold"> JAVASCRIPT</span>,
-            <span className=" font-bold"> REACT</span>,
-            <span className=" font-bold"> REDUX</span> and I am constantly
-            expanding my knowledge of these languages as well as exploring new
-            technologies and frameworks. I have experience with responsive
-            design and user interface development, and I am comfortable working
-            with both individual and team projects. I pride myself on my
-            attention to detail and my ability to problem-solve and troubleshoot
-            code. I am dedicated to creating user-friendly websites that are
-            visually appealing and easy to navigate. I am also a strong
+            As a frontend developer, I am proficient in
+            {/* <span className=" font-bold">HTML</span>, */}
+            {skills.map(skill => (
+              <span className=" font-bold" key={skill}>
+                {skill + ' '}
+              </span>
+            ))}
+            and I am constantly expanding my knowledge of these languages as
+            well as exploring new technologies and frameworks. I have experience
+            with responsive design and user interface development, and I am
+            comfortable working with both individual and team projects. I pride
+            myself on my attention to detail and my ability to problem-solve and
+            troubleshoot code. I am dedicated to creating user-friendly websites
+            that are visually appealing and easy to navigate. I am also a strong
             communicator, and I enjoy working collaboratively with designers,
             developers, and other team members to ensure that all projects are
             completed to the highest standard. In my free time, I enjoy reading

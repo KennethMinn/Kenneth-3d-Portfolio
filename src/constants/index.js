@@ -37,6 +37,10 @@ import {
   yma,
   nyi,
   car_showcase,
+  php,
+  laravel,
+  mysql,
+  next,
 } from '../assets';
 
 export const navLinks = [
@@ -86,10 +90,10 @@ const technologies = [
     name: 'Sass',
     icon: sass,
   },
-  {
-    name: 'Bootstrap',
-    icon: bootstrap,
-  },
+  // {
+  //   name: 'Bootstrap',
+  //   icon: bootstrap,
+  // },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
@@ -110,15 +114,6 @@ const technologies = [
     name: 'Redux Toolkit',
     icon: redux,
   },
-
-  {
-    name: 'java',
-    icon: java,
-  },
-  {
-    name: 'python',
-    icon: python,
-  },
   {
     name: 'Three JS',
     icon: threejs,
@@ -128,8 +123,20 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'php',
+    icon: php,
+  },
+  {
+    name: 'mysql',
+    icon: mysql,
+  },
+  {
+    name: 'nextJs',
+    icon: next,
+  },
+  {
+    name: 'laravel',
+    icon: laravel,
   },
 ];
 

@@ -50,6 +50,10 @@ import ken from './K.png';
 import gym from './gym.png';
 import computer from './97639-coding.json';
 import car_showcase from './car_showcase.png';
+import php from './tech/php.png';
+import mysql from './tech/mysql.png';
+import next from './tech/next.png';
+import laravel from './tech/laravel.png';
 
 export {
   car_showcase,
@@ -99,4 +103,8 @@ export {
   st,
   yma,
   nyi,
+  php,
+  mysql,
+  laravel,
+  next,
 };
