@@ -41,6 +41,11 @@ import {
   laravel,
   mysql,
   next,
+  bankist,
+  pig,
+  guess,
+  nextjs,
+  laravel_transparent,
 } from '../assets';
 
 export const navLinks = [
@@ -72,7 +77,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Backend Developer',
     icon: creator,
   },
 ];
@@ -143,8 +148,8 @@ const technologies = [
 const experiences = [
   {
     title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
+    // company_name: 'Starbucks',
+    icon: reactjs,
     iconBg: '#383E56',
     date: 'January 2023 - May 2023',
     points: [
@@ -156,8 +161,8 @@ const experiences = [
   },
   {
     title: 'Frontend Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    // company_name: 'Tesla',
+    icon: nextjs,
     iconBg: '#E6DEDD',
     date: 'Oct 2022 - May 2023',
     points: [
@@ -168,16 +173,16 @@ const experiences = [
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Oct 2022 - May 2023',
+    title: 'Backend Developer',
+    // company_name: 'Shopify',
+    icon: laravel_transparent,
+    iconBg: '#E6DEDD',
+    date: 'Feb 2023 - May 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Proficient in Laravel backend development, I excel in crafting scalable web solutions.',
+      'Expertise in PHP and Laravel ensures secure, efficient systems',
+      'Specialize in designing databases and APIs, prioritizing user experience. ',
+      'My dedication lies in crafting maintainable and robust applications, consistently delivering client satisfaction.',
     ],
   },
   // {
@@ -198,7 +203,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Kenneth proved me wrong.',
+      'Kenneth possesses excellent problem-solving skills. He approaches challenges with creativity and a can-do attitude.',
     name: 'Shinn Thant',
     designation: 'junior developer',
     company: 'Xsphere',
@@ -206,7 +211,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Kenneth does.",
+      "Kenneth's passion for staying up-to-date with industry trends and technologies is evident in the continuous improvement of their work.",
     name: 'Ye Man Aung',
     designation: 'Software developer',
     company: 'CodeLab',
@@ -214,15 +219,106 @@ const testimonials = [
   },
   {
     testimonial:
-      'Kenneth is a highly motivated frontend developer with a passion for creating visually appealing and user-friendly web applications',
+      'Kenneth is a highly motivated fullstack developer with a passion for creating visually appealing and user-friendly web applications',
     name: 'Nyi Nyi',
     designation: 'A friend',
     company: 'Kenneth',
     image: nyi,
   },
 ];
+const mini_projects = [
+  {
+    name: 'Guess My Number Game',
+    description:
+      'Guess the Random Number is an engaging game where players use their wits to accurately predict a randomly generated number.',
+    tags: [
+      {
+        name: 'HTML',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'JS',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: guess,
+    source_code_link: 'https://github.com/KennethMinn/Guess-my-number',
+    project_link: 'https://tiny-wisp-87610b.netlify.app/',
+  },
+  {
+    name: 'dice Game',
+    description:
+      'In this thrilling two-player dice game, race to reach the target number first to claim victory in a game of chance and strategy.',
+    tags: [
+      {
+        name: 'HTML',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'JS',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: pig,
+    source_code_link:
+      'https://github.com/KennethMinn/pig-game-two-players-can-play-',
+    project_link: 'https://sensational-platypus-e5598f.netlify.app/',
+  },
+  {
+    name: 'Bankist Portfolio',
+    description:
+      'A Bankist Portfolio is a diversified investment collection with a focus on stability and growth, tailored to your financial goals.',
+    tags: [
+      {
+        name: 'HTML',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'JS',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: bankist,
+    source_code_link: 'https://github.com/KennethMinn/Bankist-Portfolio',
+    project_link: 'https://illustrious-jelly-7c53d0.netlify.app/',
+  },
+  {
+    name: 'Mapty',
+    description:
+      ' A user-friendly fitness app utilizing GPS to track outdoor activities, enabling users to log workouts, set goals, and visualize progress on interactive maps for a rewarding and immersive fitness experience.',
+    tags: [
+      {
+        name: 'javascript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'geolocation',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: mapty,
+    source_code_link: 'https://github.com/KennethMinn/Mapty-App',
+    project_link: 'https://leafy-moxie-ba2bf4.netlify.app',
+  },
+];
 
-const projects = [
+const main_projects = [
   {
     name: 'Crown-clothing',
     description:
@@ -248,7 +344,7 @@ const projects = [
   {
     name: 'Dashboard',
     description:
-      'A visual interface presenting key information, data, and analytics in a concise and organized manner, providing users with real-time insights to make informed decisions and monitor performance effectively.',
+      'This comprehensive Ecommerce Dashboard features pages for Orders, Employees, and Customers, along with versatile apps and a variety of charts.',
     tags: [
       {
         name: 'react',
@@ -313,28 +409,6 @@ const projects = [
     project_link: 'https://kenneth-fitness-app.netlify.app/',
   },
   {
-    name: 'Mapty',
-    description:
-      ' A user-friendly fitness app utilizing GPS to track outdoor activities, enabling users to log workouts, set goals, and visualize progress on interactive maps for a rewarding and immersive fitness experience.',
-    tags: [
-      {
-        name: 'javascript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'geolocation',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: mapty,
-    source_code_link: 'https://github.com/KennethMinn/Mapty-App',
-    project_link: 'https://leafy-moxie-ba2bf4.netlify.app',
-  },
-  {
     name: 'car_showcase',
     description:
       'Experience luxury and performance with our sleek, high-tech sports car. Precision engineering, cutting-edge technology, and stunning design await you.',
@@ -362,4 +436,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  main_projects,
+  mini_projects,
+};

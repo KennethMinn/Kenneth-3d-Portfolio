@@ -36,58 +36,133 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   const skills = [
-    ' HTML',
+    'HTML',
     'CSS',
-    'SASS',
-    'BOOTSTRAP',
-    'TAILWIND',
-    'JAVASCRIPT',
-    'TYPESCRIPT',
-    'REACT',
-    'REDUX',
-    'RTK TOOLKIT',
-    'PHP',
-    'MYSQL',
-    'NEXTJS',
-    'LARAVEL',
+    'JS',
+    'TypeScript',
+    'ReactJs',
+    'NextJs',
+    'Redux',
+    'React Query',
+    'Php',
+    'Laravel',
+    'Mysql',
   ];
 
   return (
     <div className={`${styles.paddingX} md:mt-0 lg:mt-0 `}>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className=" text-center">
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
-      <div className=" flex md:flex-row flex-wrap justify-center gap-9 md:gap-0 lg:gap-0  md:justify-center md:items-center lg:justify-between">
-        <div>
-          <motion.p
-            variants={fadeIn('', '', 0.1, 1)}
-            className=" mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify md:text-start"
-          >
-            As a frontend developer, I am proficient in
-            {/* <span className=" font-bold">HTML</span>, */}
-            {skills.map(skill => (
-              <span className=" font-bold" key={skill}>
-                {skill + ' '}
-              </span>
-            ))}
-            and I am constantly expanding my knowledge of these languages as
-            well as exploring new technologies and frameworks. I have experience
-            with responsive design and user interface development, and I am
-            comfortable working with both individual and team projects. I pride
-            myself on my attention to detail and my ability to problem-solve and
-            troubleshoot code. I am dedicated to creating user-friendly websites
-            that are visually appealing and easy to navigate. I am also a strong
-            communicator, and I enjoy working collaboratively with designers,
-            developers, and other team members to ensure that all projects are
-            completed to the highest standard. In my free time, I enjoy reading
-            blogs and articles on the latest frontend development trends and
-            experimenting with new technologies and techniques. I am excited to
-            continue learning and growing as a frontend developer and to
-            contribute my skills to exciting new projects.
-          </motion.p>
+      <div className=" mt-10 flex md:flex-row flex-wrap justify-center gap-9 md:gap-0 lg:gap-0 md:justify-around md:items-center lg:justify-around">
+        <div className=" p-5 bg-slate-900 rounded-lg w-[325px] md:w-[800px] md:h-550px] font-medium text-xs md:text-[14px]">
+          <div>
+            <span className=" text-red-500 me-2">class </span>
+            <span className=" text-white">Kenneth</span>
+          </div>
+          <div className=" mt-1">{'{'}</div>
+          <div className=" ms-[30px]">
+            <div className=" mt-[7px] text-white">
+              <span className=" text-red-500">constructor</span> {'( ) {'}
+              <div className=" ms-[30px]">
+                <div className=" ">
+                  this.<span className=" text-red-500">name</span> =
+                  &quot;Kenneth Minn&quot;
+                  <span className=" font-semibold text-xs">；</span>
+                </div>
+                <div className="">
+                  this.<span className=" text-red-500">email</span> =
+                  &quot;minthukha2472005@gmail.com&quot;
+                  <span className=" font-semibold text-xs">；</span>
+                </div>
+              </div>
+              <div className=" ms-[15px]">{'}'}</div>
+            </div>
+
+            <div className=" mt-[30px] text-white">
+              <span className=" text-red-500">workExperience</span> {'( ) {'}
+              <div className=" ms-[30px]">
+                <div className="">
+                  <span className=" text-red-500">return </span> {'['}
+                </div>
+                <div className=" ms-[20px]">
+                  {'{'}{' '}
+                  <span>
+                    internship : &apos;Developed Kanote web application together
+                    with the team at Tee Htwin&apos;
+                  </span>
+                  {'}'}
+                </div>
+                <div>{']'}</div>
+              </div>
+              <div className=" ms-[15px]">{'}'}</div>
+            </div>
+
+            <div className=" mt-[30px] text-white">
+              <span className=" text-red-500">certificates</span> {'( ) {'}
+              <div className=" ms-[30px]">
+                <div className="">
+                  <span className=" text-red-500">return </span> {'['}
+                </div>
+                <div className="  ms-[20px]">
+                  <div className="">
+                    {'{'}{' '}
+                    <span>
+                      Udemy : &quot;The Complete JavaScript Course&quot;
+                    </span>
+                    {' } ,'}
+                  </div>
+                  <div className="">
+                    {'{'}{' '}
+                    <span>
+                      Udemy : &quot;The Complete ReactJs Developer Course&quot;
+                    </span>
+                    {' } ,'}
+                  </div>
+                  <div className="">
+                    {'{'}{' '}
+                    <span>
+                      CreativeCoder MM : &quot;Php + Laravel Deep Dive
+                      Course&quot;
+                    </span>
+                    {' } ,'}
+                  </div>
+                  <div className="">
+                    {'{'}{' '}
+                    <span className="">
+                      MMSIT : &quot;FullStack Development&quot;
+                    </span>
+                    {' } ,'}
+                  </div>
+                </div>
+                <div>{']'}</div>
+              </div>
+              <div className=" ms-[15px]">{'}'}</div>
+            </div>
+
+            <div className=" mt-[30px] text-white">
+              <span className=" text-red-500">skills</span> {'( ) {'}
+              <div className=" ms-[30px]">
+                <div className="">
+                  <span className=" text-red-500">return </span> {'['}
+                </div>
+                <div className=" ms-[20px]">
+                  {skills.map((skill, i) => (
+                    <span className=" font-semibold" key={i}>
+                      {' '}
+                      &apos; {skill} &apos; ,
+                    </span>
+                  ))}
+                </div>
+                <div>{']'}</div>
+              </div>
+              <div className=" ms-[15px]">{'}'}</div>
+            </div>
+          </div>
+          <div>{'}'}</div>
         </div>
-        <div className=" mt-0 md:mt-10 lg:mt-0">
+        <div className=" mt-0 md:mt-10 lg:mt-0 hidden md:block">
           <div className="card">
             <div className="card-info">
               <img
@@ -107,50 +182,4 @@ const About = () => {
     </div>
   );
 };
-
-// const About = () => {
-//   return (
-//     <div className={styles.paddingX}>
-//       <motion.div variants={textVariant()}>
-//         <p className={styles.sectionSubText}>Introduction</p>
-//         <h2 className={styles.sectionHeadText}>Overview.</h2>
-//       </motion.div>
-
-//       <motion.p
-//         variants={fadeIn('', '', 0.1, 1)}
-//         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-//       >
-//         As a frontend developer, I am proficient in{' '}
-//         <span className=" font-bold">HTML</span>,{' '}
-//         <span className=" font-bold"> CSS</span>,
-//         <span className=" font-bold"> SASS</span>,
-//         <span className=" font-bold"> BOOTSTRAP</span>,
-//         <span className=" font-bold"> TAILWIND</span>,
-//         <span className=" font-bold"> JAVASCRIPT</span>,
-//         <span className=" font-bold"> REACT</span>,
-//         <span className=" font-bold"> REDUX</span> and I am constantly expanding
-//         my knowledge of these languages as well as exploring new technologies
-//         and frameworks. I have experience with responsive design and user
-//         interface development, and I am comfortable working with both individual
-//         and team projects. I pride myself on my attention to detail and my
-//         ability to problem-solve and troubleshoot code. I am dedicated to
-//         creating user-friendly websites that are visually appealing and easy to
-//         navigate. I am also a strong communicator, and I enjoy working
-//         collaboratively with designers, developers, and other team members to
-//         ensure that all projects are completed to the highest standard. In my
-//         free time, I enjoy reading blogs and articles on the latest frontend
-//         development trends and experimenting with new technologies and
-//         techniques. I am excited to continue learning and growing as a frontend
-//         developer and to contribute my skills to exciting new projects.
-//       </motion.p>
-
-// <div className="mt-20 flex justify-center flex-wrap gap-10">
-//   {services.map((service, index) => (
-//     <ServiceCard key={service.title} index={index} {...service} />
-//   ))}
-// </div>
-//     </div>
-//   );
-// };
-
 export default SectionWrapper(About, 'about');

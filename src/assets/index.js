@@ -29,6 +29,8 @@ import meta from './company/meta.png';
 import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
+import nextjs from './company/next_transparent.png';
+import laravel_transparent from './company/laravel_transparent.png';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
@@ -39,6 +41,9 @@ import cart from './cart-management-project.png';
 import crownClothing from './crown-clothing.png';
 import dashboard from './dashboard.png';
 import ecommerce from './ecommerce-ts-react.png';
+import bankist from './bankist.png';
+import guess from './guess.png';
+import pig from './pig.png';
 
 import nyi from './nyi.jpg';
 import yma from './yma.jpg';
@@ -107,4 +112,9 @@ export {
   mysql,
   laravel,
   next,
+  bankist,
+  guess,
+  pig,
+  nextjs,
+  laravel_transparent,
 };
