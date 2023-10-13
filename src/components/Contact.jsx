@@ -12,6 +12,7 @@ const Contact = () => {
   const [form, setForm] = useState({
     name: '',
     email: '',
+    subject: '',
     message: '',
   });
 
@@ -37,12 +38,12 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_0r9g8ug',
+        'service_22oq2p9',
         'template_1u7zbkk',
         {
-          from_name: form.name,
-          to_name: 'Kenneth Minn',
-          from_email: form.email,
+          name: form.name,
+          email: form.email,
+          subject: form.subject,
           to_email: 'minthukha2472005@gmail.com',
           message: form.message,
         },
@@ -82,7 +83,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-12 flex flex-col gap-5"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
@@ -103,6 +104,17 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+            />
+          </label>
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Subject</span>
+            <input
+              type="text"
+              name="subject"
+              value={form.subject}
+              onChange={handleChange}
+              placeholder="Subject?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
