@@ -65,7 +65,7 @@ const About = () => {
           <div className=" ms-[30px]">
             <div className=" mt-[7px] text-white">
               <span className=" text-red-500">constructor</span> {'( ) {'}
-              <div className=" ms-[30px]">
+              <div className=" ms-[30px] py-1 space-y-1">
                 <div className=" ">
                   this.<span className=" text-red-500">name</span> =
                   &quot;Kenneth Minn&quot;
@@ -77,12 +77,12 @@ const About = () => {
                   <span className=" font-semibold text-xs">；</span>
                 </div>
               </div>
-              <div className=" ms-[15px]">{'}'}</div>
+              <div className="">{'}'}</div>
             </div>
 
             <div className=" mt-[30px] text-white">
               <span className=" text-red-500">workExperience</span> {'( ) {'}
-              <div className=" ms-[30px]">
+              <div className=" ms-[30px] py-1 space-y-1">
                 <div className="">
                   <span className=" text-red-500">return </span> {'['}
                 </div>
@@ -96,16 +96,16 @@ const About = () => {
                 </div>
                 <div>{']'}</div>
               </div>
-              <div className=" ms-[15px]">{'}'}</div>
+              <div className="">{'}'}</div>
             </div>
 
             <div className=" mt-[30px] text-white">
               <span className=" text-red-500">certificates</span> {'( ) {'}
-              <div className=" ms-[30px]">
+              <div className=" ms-[30px] py-1">
                 <div className="">
                   <span className=" text-red-500">return </span> {'['}
                 </div>
-                <div className="  ms-[20px]">
+                <div className=" space-y-1 my-2 ms-[20px]">
                   <div className="">
                     {'{'}{' '}
                     <span>
@@ -138,12 +138,12 @@ const About = () => {
                 </div>
                 <div>{']'}</div>
               </div>
-              <div className=" ms-[15px]">{'}'}</div>
+              <div className="">{'}'}</div>
             </div>
 
             <div className=" mt-[30px] text-white">
               <span className=" text-red-500">skills</span> {'( ) {'}
-              <div className=" ms-[30px]">
+              <div className=" ms-[30px] py-1 space-y-1">
                 <div className="">
                   <span className=" text-red-500">return </span> {'['}
                 </div>
@@ -157,7 +157,7 @@ const About = () => {
                 </div>
                 <div>{']'}</div>
               </div>
-              <div className=" ms-[15px]">{'}'}</div>
+              <div className="">{'}'}</div>
             </div>
           </div>
           <div>{'}'}</div>
