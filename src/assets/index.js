@@ -59,6 +59,7 @@ import php from './tech/php.png';
 import mysql from './tech/mysql.png';
 import next from './tech/next.png';
 import laravel from './tech/laravel.png';
+import prisma_ecommerce from './prisma-ecommerce.png';
 
 export {
   car_showcase,
@@ -117,4 +118,5 @@ export {
   pig,
   nextjs,
   laravel_transparent,
+  prisma_ecommerce,
 };

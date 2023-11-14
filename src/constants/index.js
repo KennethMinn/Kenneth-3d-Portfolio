@@ -46,6 +46,7 @@ import {
   guess,
   nextjs,
   laravel_transparent,
+  prisma_ecommerce,
 } from '../assets';
 
 export const navLinks = [
@@ -369,7 +370,7 @@ const main_projects = [
       'The online marketplace where consumers and businesses interact, offering a wide range of products and services, enabling convenient shopping and global accessibility.',
     tags: [
       {
-        name: 'react',
+        name: 'NextJs',
         color: 'blue-text-gradient',
       },
       {
@@ -377,14 +378,18 @@ const main_projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind Css',
+        name: 'Shadcn',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'Prisma',
+        color: 'green-text-gradient',
+      },
     ],
-    image: ecommerce,
-    source_code_link:
-      'https://github.com/KennethMinn/typescript-cart-management',
-    project_link: 'https://ecommerce-cart-management.netlify.app/',
+
+    image: prisma_ecommerce,
+    source_code_link: 'https://github.com/KennethMinn/prisma-server_actions',
+    project_link: 'https://prisma-server-actions-ashy.vercel.app/',
   },
   {
     name: 'fitness-app',

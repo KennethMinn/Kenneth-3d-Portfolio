@@ -95,10 +95,10 @@ const Works = () => {
 
       <div className="">
         <h2 className={` text-center font-bold text-2xl mt-10`}>
-          Main Projects.
+          Mini Projects.
         </h2>
         <div className="mt-10 flex justify-center flex-wrap gap-7">
-          {main_projects.map((project, index) => (
+          {mini_projects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}
         </div>
@@ -106,10 +106,10 @@ const Works = () => {
 
       <div className="">
         <h2 className={` text-center font-bold text-2xl mt-10`}>
-          Mini Projects.
+          Main Projects.
         </h2>
         <div className="mt-10 flex justify-center flex-wrap gap-7">
-          {mini_projects.map((project, index) => (
+          {main_projects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}
         </div>
