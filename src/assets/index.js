@@ -46,6 +46,7 @@ import guess from './guess.png';
 import pig from './pig.png';
 
 import nyi from './nyi.jpg';
+import ceo from './CEO.png';
 import yma from './yma.jpg';
 import st from './st.jpg';
 import com from './images (1).png';
@@ -110,6 +111,7 @@ export {
   yma,
   nyi,
   php,
+  ceo,
   mysql,
   laravel,
   next,

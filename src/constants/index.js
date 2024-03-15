@@ -36,6 +36,7 @@ import {
   st,
   yma,
   nyi,
+  ceo,
   car_showcase,
   php,
   laravel,
@@ -213,18 +214,18 @@ const testimonials = [
   {
     testimonial:
       "Kenneth's passion for staying up-to-date with industry trends and technologies is evident in the continuous improvement of their work.",
-    name: 'Ye Man Aung',
-    designation: 'Software developer',
-    company: 'CodeLab',
-    image: yma,
+    name: 'YangHee Moon',
+    designation: 'CEO of Tagoplus',
+    company: 'Tagoplus',
+    image: ceo,
   },
   {
     testimonial:
-      'Kenneth is a highly motivated fullstack developer with a passion for creating visually appealing and user-friendly web applications',
-    name: 'Nyi Nyi',
-    designation: 'A friend',
-    company: 'Kenneth',
-    image: nyi,
+      'Kenneth is a highly motivated developer with a passion for creating visually appealing and user-friendly web applications',
+    name: 'Ye Man Aung',
+    designation: 'CS student',
+    company: 'Ucsy',
+    image: yma,
   },
 ];
 const mini_projects = [

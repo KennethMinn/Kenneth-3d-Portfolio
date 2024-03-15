@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt="web-development"
-          className="w-16 h-16 object-contain"
+          className="object-contain w-16 h-16"
         />
 
         <h3 className="text-white text-[20px] font-bold text-center">
@@ -50,41 +50,41 @@ const About = () => {
   ];
 
   return (
-    <div className={`${styles.paddingX} md:mt-0 lg:mt-0 `}>
-      <motion.div variants={textVariant()} className=" text-center">
+    <div className={`${styles.paddingX} mt-[20px] md:mt-[200px]`}>
+      <motion.div variants={textVariant()} className="text-center ">
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
-      <div className=" mt-10 flex md:flex-row flex-wrap justify-center gap-9 md:gap-0 lg:gap-0 md:justify-around md:items-center lg:justify-around">
-        <div className=" p-5 bg-slate-900 rounded-lg w-[325px] md:w-[800px] md:h-550px] font-medium text-xs md:text-[14px]">
+      <div className="flex flex-wrap justify-center mt-10 md:flex-row gap-9 md:gap-0 lg:gap-0 md:justify-around md:items-center lg:justify-around">
+        <div className=" p-5 bg-slate-900 rounded-lg w-[325px] md:w-[1000px] md:h-550px] font-medium text-xs md:text-[14px]">
           <div>
-            <span className=" text-red-500 me-2">class </span>
-            <span className=" text-white">Kenneth</span>
+            <span className="text-red-500 me-2">class </span>
+            <span className="text-white ">Kenneth</span>
           </div>
-          <div className=" mt-1">{'{'}</div>
+          <div className="mt-1 ">{'{'}</div>
           <div className=" ms-[30px]">
             <div className=" mt-[7px] text-white">
-              <span className=" text-red-500">constructor</span> {'( ) {'}
+              <span className="text-red-500 ">constructor</span> {'( ) {'}
               <div className=" ms-[30px] py-1 space-y-1">
-                <div className=" ">
-                  this.<span className=" text-red-500">name</span> =
+                <div className="">
+                  this.<span className="text-red-500 ">name</span> =
                   &quot;Kenneth Minn&quot;
-                  <span className=" font-semibold text-xs">；</span>
+                  <span className="text-xs font-semibold ">；</span>
                 </div>
                 <div className="">
-                  this.<span className=" text-red-500">email</span> =
+                  this.<span className="text-red-500 ">email</span> =
                   &quot;minthukha2472005@gmail.com&quot;
-                  <span className=" font-semibold text-xs">；</span>
+                  <span className="text-xs font-semibold ">；</span>
                 </div>
               </div>
               <div className="">{'}'}</div>
             </div>
 
             <div className=" mt-[30px] text-white">
-              <span className=" text-red-500">workExperience</span> {'( ) {'}
+              <span className="text-red-500 ">workExperience</span> {'( ) {'}
               <div className=" ms-[30px] py-1 space-y-1">
                 <div className="">
-                  <span className=" text-red-500">return </span> {'['}
+                  <span className="text-red-500 ">return </span> {'['}
                 </div>
                 <div className=" ms-[20px]">
                   {'{'}{' '}
@@ -94,16 +94,26 @@ const About = () => {
                   </span>
                   {'}'}
                 </div>
+                <div className=" ms-[20px]">
+                  {'{'}{' '}
+                  <span>
+                    full-time : &apos;Developed Korean Projects and
+                    International Projects together with the team at ITWizard
+                    {' ( Tagoplus )'}
+                    &apos;
+                  </span>
+                  {'}'}
+                </div>
                 <div>{']'}</div>
               </div>
               <div className="">{'}'}</div>
             </div>
 
             <div className=" mt-[30px] text-white">
-              <span className=" text-red-500">certificates</span> {'( ) {'}
+              <span className="text-red-500 ">certificates</span> {'( ) {'}
               <div className=" ms-[30px] py-1">
                 <div className="">
-                  <span className=" text-red-500">return </span> {'['}
+                  <span className="text-red-500 ">return </span> {'['}
                 </div>
                 <div className=" space-y-1 my-2 ms-[20px]">
                   <div className="">
@@ -142,14 +152,14 @@ const About = () => {
             </div>
 
             <div className=" mt-[30px] text-white">
-              <span className=" text-red-500">skills</span> {'( ) {'}
+              <span className="text-red-500 ">skills</span> {'( ) {'}
               <div className=" ms-[30px] py-1 space-y-1">
                 <div className="">
-                  <span className=" text-red-500">return </span> {'['}
+                  <span className="text-red-500 ">return </span> {'['}
                 </div>
                 <div className=" ms-[20px]">
                   {skills.map((skill, i) => (
-                    <span className=" font-semibold" key={i}>
+                    <span className="font-semibold " key={i}>
                       {' '}
                       &apos; {skill} &apos; ,
                     </span>
@@ -162,7 +172,7 @@ const About = () => {
           </div>
           <div>{'}'}</div>
         </div>
-        <div className=" mt-0 md:mt-10 lg:mt-0 hidden md:block">
+        {/* <div className="hidden mt-0 md:mt-10 lg:mt-0 md:block">
           <div className="card">
             <div className="card-info">
               <img
@@ -171,10 +181,10 @@ const About = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
-      <div className="mt-20 flex justify-center flex-wrap gap-10">
+      <div className="flex flex-wrap justify-center gap-10 mt-20">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
