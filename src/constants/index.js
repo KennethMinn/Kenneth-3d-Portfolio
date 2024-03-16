@@ -153,7 +153,7 @@ const experiences = [
     // company_name: 'Starbucks',
     icon: reactjs,
     iconBg: '#383E56',
-    date: 'January 2023 - May 2023',
+    date: 'January 2022 - May 2023',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -166,7 +166,7 @@ const experiences = [
     // company_name: 'Tesla',
     icon: nextjs,
     iconBg: '#E6DEDD',
-    date: 'Oct 2022 - May 2023',
+    date: 'Oct 2023 - May 2023',
     points: [
       'Developing specialize in creating the visual and interactive aspects of websites and applications that users see and interact with.',
       'By using HTML, CSS, and JavaScript to build user interfaces and ensure that they are responsive, intuitive, and accessible on various devices.',
@@ -179,7 +179,7 @@ const experiences = [
     // company_name: 'Shopify',
     icon: laravel_transparent,
     iconBg: '#E6DEDD',
-    date: 'Feb 2023 - May 2023',
+    date: 'Feb 2023 - augest 2023',
     points: [
       'Proficient in Laravel backend development, I excel in crafting scalable web solutions.',
       'Expertise in PHP and Laravel ensures secure, efficient systems',
@@ -207,7 +207,7 @@ const testimonials = [
     testimonial:
       'Kenneth possesses excellent problem-solving skills. He approaches challenges with creativity and a can-do attitude.',
     name: 'Shinn Thant',
-    designation: 'junior developer',
+    designation: 'Mid-level developer',
     company: 'Xsphere',
     image: st,
   },
