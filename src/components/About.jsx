@@ -38,11 +38,15 @@ const About = () => {
   const skills = [
     'HTML',
     'CSS',
-    'JS',
+    'JavaScript',
     'TypeScript',
     'ReactJs',
     'NextJs',
+    'Prisma',
+    'GraphQl',
+    'Rest',
     'Redux',
+    'Zustand',
     'React Query',
     'Php',
     'Laravel',
@@ -87,21 +91,23 @@ const About = () => {
                   <span className="text-red-500 ">return </span> {'['}
                 </div>
                 <div className=" ms-[20px]">
-                  {'{'}{' '}
-                  <span>
-                    internship : &apos;Developed Kanote web application together
-                    with the team at Tee Htwin&apos;
-                  </span>
-                  {'}'}
+                  {'{'} <br />
+                  <span className=" md:ms-4">
+                    frontend developer : &apos;Developed Kanote web application
+                    together with the team at Tee Htwin&apos;
+                  </span>{' '}
+                  <br />
+                  {'},'}
                 </div>
                 <div className=" ms-[20px]">
-                  {'{'}{' '}
-                  <span>
-                    full-time : &apos;Developed Korean Projects and
+                  {'{'} <br />
+                  <span className=" md:ms-4">
+                    frontend developer : &apos;Developed Korean Projects and
                     International Projects together with the team at ITWizard
                     {' ( Tagoplus )'}
                     &apos;
                   </span>
+                  <br />
                   {'}'}
                 </div>
                 <div>{']'}</div>
