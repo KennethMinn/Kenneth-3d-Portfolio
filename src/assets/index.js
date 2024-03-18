@@ -60,6 +60,8 @@ import php from './tech/php.png';
 import mysql from './tech/mysql.png';
 import next from './tech/next.png';
 import laravel from './tech/laravel.png';
+import reactQuery from './tech/react-query.png';
+import graphQl from './tech/graphql.png';
 import prisma_ecommerce from './prisma-ecommerce.png';
 
 export {
@@ -116,9 +118,11 @@ export {
   laravel,
   next,
   bankist,
+  reactQuery,
   guess,
   pig,
   nextjs,
   laravel_transparent,
+  graphQl,
   prisma_ecommerce,
 };
