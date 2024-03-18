@@ -45,9 +45,11 @@ import {
   bankist,
   pig,
   guess,
+  graphQl,
   nextjs,
   laravel_transparent,
   prisma_ecommerce,
+  reactQuery,
 } from '../assets';
 
 export const navLinks = [
@@ -93,10 +95,10 @@ const technologies = [
     name: 'CSS 3',
     icon: css,
   },
-  {
-    name: 'Sass',
-    icon: sass,
-  },
+  // {
+  //   name: 'Sass',
+  //   icon: sass,
+  // },
   // {
   //   name: 'Bootstrap',
   //   icon: bootstrap,
@@ -122,8 +124,12 @@ const technologies = [
     icon: redux,
   },
   {
-    name: 'Three JS',
-    icon: threejs,
+    name: 'React Query',
+    icon: reactQuery,
+  },
+  {
+    name: 'GraphQl',
+    icon: graphQl,
   },
   {
     name: 'git',

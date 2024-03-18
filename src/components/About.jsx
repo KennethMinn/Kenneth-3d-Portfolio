@@ -50,7 +50,7 @@ const About = () => {
   ];
 
   return (
-    <div className={`${styles.paddingX} mt-[20px] md:mt-[200px]`}>
+    <div className={`${styles.paddingX} mt-[20px] md:mt-[60px]`}>
       <motion.div variants={textVariant()} className="text-center ">
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
