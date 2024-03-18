@@ -94,7 +94,8 @@ const About = () => {
                   {'{'} <br />
                   <span className=" md:ms-4">
                     frontend developer : &apos;Developed Kanote web application
-                    together with the team at Tee Htwin&apos;
+                    together with the team at{' '}
+                    <span className="font-extrabold">Tee Htwin</span>&apos;
                   </span>{' '}
                   <br />
                   {'},'}
@@ -103,8 +104,8 @@ const About = () => {
                   {'{'} <br />
                   <span className=" md:ms-4">
                     frontend developer : &apos;Developed Korean Projects and
-                    International Projects together with the team at ITWizard
-                    {' ( Tagoplus )'}
+                    International Projects together with the team at{' '}
+                    <span className="font-extrabold ">ITWizard</span>
                     &apos;
                   </span>
                   <br />
