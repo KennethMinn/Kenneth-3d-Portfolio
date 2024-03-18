@@ -12,7 +12,7 @@ const Hero = () => {
       >
         <div className="flex flex-col items-center justify-center mt-5 ">
           <div className=" w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 h-40 sm:h-80 violet-gradient" />
+          <div className="w-1 h-40  sm:h-80 violet-gradient" />
         </div>
         <div className="mt-10 ">
           <h1 className={`${styles.heroHeadText} text-white`}>
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className=" flex justify-center mt-[-90px] bg-white">
+      <div className=" flex justify-center mt-[-90px]">
         <Lottie animationData={computer} className=" h-[500px] md:h-[600px]" />
       </div>
 
@@ -40,7 +40,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: 'loop',
               }}
-              className="w-3 h-3 mb-1 rounded-full bg-secondary"
+              className="w-3 h-3 mb-1 rounded-full  bg-secondary"
             ></motion.dev>
           </div>
         </a>
