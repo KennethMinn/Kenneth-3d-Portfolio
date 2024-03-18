@@ -60,7 +60,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <div className="flex flex-wrap justify-center mt-10 md:flex-row gap-9 md:gap-0 lg:gap-0 md:justify-around md:items-center lg:justify-around">
-        <div className=" p-5 bg-slate-900 rounded-lg w-[325px] md:w-[1000px] md:h-550px] font-medium text-xs md:text-[14px]">
+        <div className=" p-5 md:p-8 bg-slate-900 rounded-2xl w-[325px] md:w-[1120px] font-medium text-xs md:text-[14px]">
           <div>
             <span className="text-red-500 me-2">class </span>
             <span className="text-white ">Kenneth</span>
